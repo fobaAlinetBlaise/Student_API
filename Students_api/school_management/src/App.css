@@ -1,0 +1,66 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.card:hover {
+    transform: scale(1.1);
+    background-color: bisque;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+body {
+    background-color: hsla(64, 52%, 51%, 0.438);
+}
+
+.bg-dark {
+    background-color: #4f868c!important;
+}
+
+.course_name {
+    box-shadow: hsl(0, 0%, 80%) 0 0 16px;
+    background-color: bisque;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.col-lg-4,
+.col-lg-6,
+.col-lg-8,
+.col-lg-12 {
+    margin-top: 10px;
+}
